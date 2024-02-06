@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Jai Site</title>
+    <link id = "stylez" rel="stylesheet" href="darkmodeass.css">
+    <link rel="icon" type="image/x-icon" href="Instagram_icon-icons.com_66804.ico">
+
+</head>
+
+<body>
+
+    <ul class = "navul">
+
+        <li class = "navli"><a class = "navlia" href="enteredwebsite.html">About Me</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html">Educational background</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html#Achievements">Achievements</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html#Skills">Skills</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html#Blogs">Blogs</a></li>
+        <li class="navli"><a href="https://www.instagram.com/1_g_j_1/"><img src="Instagram_icon-icons.com_66804.ico" alt="Instagram Handle" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class="navli"><a href="https://www.linkedin.com/in/jai-aakash-gopalakrishnan-00bbbb23a/"><img src="linkedin.png" alt="Linkedin" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class="navli"><a href="https://github.com/GJTKOCS"><img src="github.png" alt="GitHub" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class="navli"><a href="mailto:jaiaakash.g@students.iiit.ac.in"><img src="email.png" alt="Email" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class = "navli"><img id = "modeimage" src="brightness.png" alt="Button Image"  onclick="toggleMode()" class="navlia" style = "width: 5%; height: 5%;"></li>       
+        <script src = "assscriptmain.js"></script>
+
+
+    </ul>
+
+    <div class="flexcontainer">
+
+        <div>
+
+            <p>
+                In my own eyes, the world is a perplexing puzzle, each piece hiding a secret waiting to be uncovered. Hawkins may seem like any other small town, but beneath its surface lies a realm of mysteries that defy explanation. The ordinary clashes with the extraordinary in ways that challenge my understanding of reality. Through the lens of my experiences, friendships are forged in the crucible of shared struggles, and every shadow conceals a potential danger or revelation. Life in Hawkins has taught me that strength is found not only in confronting the supernatural but also in navigating the complexities of human relationships and the unforeseen twists that fate throws our way. It's a world where courage is tested, loyalty is earned, and the boundaries between the known and the unknown blur into a tapestry of unexpected challenges.
+            </p>
+
+        </div>
+    
+    </div>
+
+    <ul class="navul">
+
+        <li class="navli" style="width: 10%;">
+            <div class="likes-section">
+                <br><br>Likes: <span id="blog2LikesCount">0</span> <button onclick="increaseLikes('blog2')">Like</button>
+            </div>
+        </li>
+        <li class="navli" style="width: 10%;">
+            <div class="comments-section">
+                <br>
+                <textarea id="blog2CommentInput" placeholder="Enter your comment"></textarea>
+                <button onclick="addComment('blog2')">Add Comment</button>
+                <br><br>
+                <ul id="blog2CommentsList"></ul>
+                <br>
+            </div>
+        </li>
+
+    </ul>
+
+    <script src="assscriptmain.js"></script>
+
+</body>

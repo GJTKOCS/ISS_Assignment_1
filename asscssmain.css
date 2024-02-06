@@ -1,0 +1,240 @@
+.start {
+
+
+    background-image: url("madagascar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.button{
+
+    background-color: chartreuse;
+    align-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+@keyframes bgchange {
+    0%, 100% {
+        background-image: url("trip1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    25% {
+        background-image: url("trip2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    50% {
+        background-image: url("trip3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    75% {
+        background-image: url("trip4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+}
+
+.abttostart {
+
+    animation-name: bgchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#jai{
+
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    border-radius: 50%;
+    height: 45%;
+    transition: transform 0.5s ease-in-out;
+
+}
+#jai:hover {
+
+    
+    transform: rotate(360deg);
+
+}
+#abtyourself {
+ 
+    font-family: verdana; 
+    color: rgb(254, 254, 254);
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+    margin-left: -30%;
+    text-align: left;
+    width: 60%;
+
+}
+.navul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+  
+.navli {
+
+    float: left;
+
+}
+
+.navlia {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navlia:hover {
+
+    background-color: #111;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .start {
+        background-image: url("madagascar.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .button {
+        background-color: chartreuse;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px; 
+        width: 80%; 
+        height: 50px; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+    
+    @keyframes bgchange {
+        0%, 100% {
+            background-image: url("trip1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        25% {
+            background-image: url("trip2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        50% {
+            background-image: url("trip3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        75% {
+            background-image: url("trip4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    }
+    
+    .abttostart {
+        animation-name: bgchange;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    #jai {
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        border-radius: 30%;
+        height: 20%;
+        transition: transform 0.5s ease-in-out;
+    }
+    #jai img{
+        background-color: transparent;
+    }
+    #jai:hover {
+        transform: rotate(360deg);
+    }
+    
+    #abtyourself {
+        font-family: verdana; 
+        color: rgb(254, 254, 254);
+        font-size: 14px; 
+        font-weight: bold; 
+        position: absolute;
+        top: 20%; 
+        margin-left: -40%; 
+        text-align: center; 
+        width: 80%;
+    }
+    
+    .navul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+      
+    .navli {
+        float: left;
+    }
+    
+    .navlia {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+    }
+    
+    .navlia:hover {
+        background-color: #111;
+    }
+    
+
+}

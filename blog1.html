@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Jai Site</title>
+    <link id = "stylez" rel="stylesheet" href="darkmodeass.css">
+    <link rel="icon" type="image/x-icon" href="Instagram_icon-icons.com_66804.ico">
+
+</head>
+
+<body>
+
+    <ul class = "navul">
+        
+        <li class = "navli"><a class = "navlia" href="enteredwebsite.html">About Me</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html">Educational background</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html#Achievements">Achievements</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html#Skills">Skills</a></li>
+        <li class = "navli"><a class = "navlia" href="edubackground.html#Blogs">Blogs</a></li>
+        <li class="navli"><a href="https://www.instagram.com/1_g_j_1/"><img src="Instagram_icon-icons.com_66804.ico" alt="Instagram Handle" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class="navli"><a href="https://www.linkedin.com/in/jai-aakash-gopalakrishnan-00bbbb23a/"><img src="linkedin.png" alt="Linkedin" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class="navli"><a href="https://github.com/GJTKOCS"><img src="github.png" alt="GitHub" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class="navli"><a href="mailto:jaiaakash.g@students.iiit.ac.in"><img src="email.png" alt="Email" class="navlia" style="width: 30px; height: 30px;"></a></li>
+        <li class = "navli"><img id = "modeimage" src="brightness.png" alt="Button Image"  onclick="toggleMode()" class="navlia" style = "width: 5%; height: 5%;"></li>       
+        <script src = "assscriptmain.js"></script>
+
+
+    </ul>
+
+    <div class="flexcontainer">
+
+        <div>
+
+            <p>
+                In the quiet moments between swinging through skyscrapers and capturing snapshots for the Daily Bugle, I often find myself reflecting on the city below. The world, to me, is a vibrant tapestry of both beauty and chaos. Each corner holds stories of ordinary people facing extraordinary challenges. It's a place where everyday struggles intertwine with the grandeur of superhero escapades. Beneath the mask, I see a city in constant motion, a reflection of life's ebb and flow. And within this intricate web, I strive to be the thread that weaves moments of hope and resilience into the fabric of New York.
+            </p>
+
+        </div>
+    
+    </div>
+
+    <ul class="navul">
+
+        <li class="navli" style="width: 10%;">
+            <div class="likes-section">
+                <br><br>Likes: <span id="blog1LikesCount">0</span> <button onclick="increaseLikes('blog1')">Like</button>
+            </div>
+        </li>
+        <li class="navli" style="width: 10%;">
+            <div class="comments-section">
+                <br>
+                <textarea id="blog1CommentInput" placeholder="Enter your comment"></textarea>
+                <button onclick="addComment('blog1')">Add Comment</button>
+                <br><br>
+                <ul id="blog1CommentsList"></ul>
+                <br>
+            </div>
+        </li>
+
+    </ul>
+
+    <script src="assscriptmain.js"></script>
+    
+</body>

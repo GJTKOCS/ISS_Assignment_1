@@ -1,0 +1,191 @@
+.navul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+  
+.navli {
+
+    float: left;
+
+}
+
+.navlia {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navlia:hover {
+
+    background-color: #111;
+
+}
+
+
+
+
+body {
+
+    background-color: #232222;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+
+h1 {
+
+    color: #ffffff; 
+
+}
+
+a {
+
+    color: #3498db;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.container {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.button {
+
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+
+    background-color: #2980b9;
+
+}
+
+.flexcontainer {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #41413b;
+
+}
+
+.flexcontainer > div{
+    
+    background-color: #4f3077;
+    width: 70%;
+    margin: 1%;
+    text-align: left;
+
+}
+
+.text{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+
+}
+  
+.likes-section,
+.comments-section {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    body {
+        background-color: #ffffff;
+        color: #333333;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%; 
+        padding: 20px;
+        box-sizing: border-box; 
+        margin: 0 auto;
+    }
+
+    .button {
+        background-color: #3498db;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #2980b9;
+    }
+    .flexcontainer {
+        display: flex;
+        flex-direction: column;
+        background-color: #41413b;
+    }
+
+    .flexcontainer > div {
+        background-color: #4f3077;
+        width: 100%;
+        margin: 10px 0;
+        box-sizing: border-box; 
+    }
+
+    .text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 120%; 
+        text-align: left;
+    }
+
+    .likes-section,
+    .comments-section,
+    textarea {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+
+
+}
